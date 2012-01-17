@@ -1,7 +1,7 @@
-<project name="keybinding" url="http://www.joshuagranick.com" license="BSD">
+<project name="keybinding" url="http://www.joshuagranick.com" license="MIT">
     <user name="elyon"/>
     <tag v="flash"/>
     <tag v="cpp"/>
     <description>Makes it simple to "bind" or "unbind" handlers for the keyboard</description>
-    <version name="1.03">Small getKeyCode fix for C++ and Neko</version>
+    <version name="1.04">Fixed license</version>
 </project>

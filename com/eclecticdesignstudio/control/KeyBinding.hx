@@ -67,15 +67,7 @@ class KeyBinding {
 	
 	public static function getKeyCode (key:String):Int {
 		
-		#if (cpp || neko)
-		
-		return key.toLowerCase ().charCodeAt (0);
-		
-		#else
-		
 		return key.toUpperCase ().charCodeAt (0);
-		
-		#end
 		
 	}
 	

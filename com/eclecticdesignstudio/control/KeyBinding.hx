@@ -12,14 +12,20 @@ import flash.events.KeyboardEvent;
 import flash.ui.Keyboard;
 import flash.Lib;
 
+#if haxe3
+import haxe.ds.IntMap;
+#else
+typedef IntMap<T> = IntHash<T>;
+#end
+
 
 class KeyBinding {
 	
 	
 	private static var initialized:Bool;
-	private static var keyPressed:IntHash <Bool> = new IntHash <Bool> ();
-	private static var pressBindings:IntHash <KeyBindingData> = new IntHash <KeyBindingData> ();
-	private static var releaseBindings:IntHash <KeyBindingData> = new IntHash <KeyBindingData> ();
+	private static var keyPressed = new IntMap <Bool> ();
+	private static var pressBindings = new IntMap <KeyBindingData> ();
+	private static var releaseBindings = new IntMap <KeyBindingData> ();
 	
 	
 	/**

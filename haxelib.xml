@@ -3,5 +3,5 @@
     <tag v="flash"/>
     <tag v="cpp"/>
     <description>Makes it simple to "bind" or "unbind" handlers for the keyboard</description>
-    <version name="1.04">Fixed license</version>
+    <version name="1.05">Fix for Haxe 3</version>
 </project>

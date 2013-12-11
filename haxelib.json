@@ -1,0 +1,11 @@
+{
+  "name": "keybinding",
+  "url": "http://github.com/jgranick/keybinding",
+  "license": "MIT",
+  "tags": [ ],
+  "description": "Makes it simple to 'bind' or 'unbind' handlers for the keyboard",
+  "version": "1.0.5",
+  "releasenote": "Fix for Haxe 3",
+  "contributors": [ "singmajesty" ],
+  "dependencies": {}
+}
